@@ -9,7 +9,7 @@ class EN(object):
     WELCOME_MSG = "Hello {} Sir"
     START_DOWNLOAD = "Starting to download..........."
     ANTI_SPAM_WAIT = "Wait for the current task to complete!"
-    TASK_COMPLETED = "Download Finished"   
+    TASK_COMPLETED = "ᴅᴏᴡɴʟᴏᴀᴅ ᴄᴏᴍᴘʟᴇᴛᴇᴅ\n@DumpTidal @TidalXyz"   
     SONG_COPY_EXIST = 'Song already downloaded exist'
     SONG_COPY_EXIST_INFO = """
 <b>ITEM NO - {}</b>
@@ -53,19 +53,17 @@ Quality : {}
 #
 #----------------
     ALBUM_TEMPLATE = """
-🎶 <b>Title :</b> {title}
-👤 <b>Artist :</b> {artist}
-📅 <b>Release Date :</b> {date}
-🔢 <b>Total Tracks :</b> {totaltracks}
-📀 <b>Total Volumes :</b> {totalvolume}
-💫 <b>Quality :</b> {quality}
-📡 <b>Provider :</b> {provider}
-🔞 <b>Explicit :</b> {explicit}
+🎶 ᴀʟʙᴜᴍ : {title}
+👤 ᴀʀᴛɪꜱᴛ : {artist}
+📅 ʀᴇʟᴇᴀꜱᴇ : {date}
+🔢 ᴛᴏᴛᴀʟ ᴛʀᴀᴄᴋꜱ : {totaltracks}
+💽 Qᴜᴀʟɪᴛʏ : {quality}
+ℹ️ ꜱᴏᴜʀᴄᴇ : {provider}
 """
 
     # The caption on the uploaded audio file in Telegram
     # Keep it blank for no captions
-    TRACK_TEMPLATE = "<b>{artist} - {title}</b>"
+    TRACK_TEMPLATE = ""
 
     
 

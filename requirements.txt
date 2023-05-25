@@ -1,0 +1,13 @@
+pyrogram==2.0.96
+tgcrypto
+aiohttp
+mutagen
+psutil
+aigpy
+python-dotenv
+lyricsgenius
+pydub
+pycryptodomex
+Pillow
+psycopg2-binary
+pathvalidate
